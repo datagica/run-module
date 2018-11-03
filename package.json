@@ -1,0 +1,15 @@
+{
+  "name": "@datagica/run-module",
+  "version": "0.0.0",
+  "description": "run module",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony --bail --require chai tests/*.js"
+  },
+  "author": "Julian Bilcke <julian.bilcke@datagica.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "cross-spawn": "^6.0.5"
+  },
+  "devDependencies": {}
+}
